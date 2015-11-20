@@ -1,5 +1,0 @@
-nouns = [
-    'Dimensions',
-    'Structures',
-    'Butts'
-]

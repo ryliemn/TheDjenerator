@@ -1,4 +1,0 @@
-adjectives = [
-    'Discrete',
-    'Transcendental'
-]
