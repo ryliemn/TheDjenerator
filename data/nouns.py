@@ -1,0 +1,5 @@
+nouns = [
+    'Dimensions',
+    'Structures',
+    'Butts'
+]
