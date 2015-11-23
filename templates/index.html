@@ -1,13 +1,18 @@
 <!doctype HTML>
-<html>
+<html ng-app="djeneratorApp">
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
     <script src="../static/js/index.js"></script>
 
     <title>The Djenerator</title>
   </head>
 
   <body>
-    Yo yo yo
+    <h1>The Djenerator</h1>
+    <p>Need a new name for your djent band?</p>
+    <p>Look no further!</p>
+    <div ng-controller="GeneratorCtrl">
+      {[ random_name ]}
+    </div>
   </body>
 </html>
