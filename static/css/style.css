@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  background-color: gray;
+}
+
+body {
+  height: 100%;
+
+  background-color: lightgray;
+  text-align: center;
+
+  margin: 0 20%;
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+
+  font-family: impact, sans-serif;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: Verdana;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: Tahoma;
+  margin: 0;
+}
+
+.fade-out {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+#redjenerate_button {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: impact;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px darkgray;
+
+  margin: 0 0 200px 0;
+}

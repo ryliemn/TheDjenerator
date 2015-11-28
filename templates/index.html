@@ -1,6 +1,8 @@
 <!doctype HTML>
 <html ng-app="djeneratorApp">
   <head>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
     <script src="../static/js/index.js"></script>
 
@@ -9,10 +11,16 @@
 
   <body>
     <h1>The Djenerator</h1>
+    <hr>
     <p>Need a new name for your djent band?</p>
-    <p>Look no further!</p>
+    <p><strong>Look no further!</strong></p>
+    <hr>
     <div ng-controller="GeneratorCtrl">
-      {[ random_name ]}
+      <h2>{[ random_name ]}</h2>
+
+      <a href ng-click="get_new_name()" id="redjenerate_button">Redjenerate</a>
+
+      <h4>{[ possible_combinations ]} names in our database and counting!</h4>
     </div>
   </body>
 </html>

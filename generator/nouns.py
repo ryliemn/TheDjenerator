@@ -3,7 +3,7 @@ NOUNS = [
     'Assemblages',
     'Atmospheres',
     'Axioms',
-    'Cacophony',
+    'Cacophonies',
     'Constants',
     'Continuums',
     'Dichotomies',
